@@ -1,0 +1,87 @@
+@import "../constants.scss";
+
+.istkr-advisor {
+
+  .top-section {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+    .istkr-advisor-progress-bar {
+      width: 100%;
+      height: 10px;
+      display: flex;
+      background-color: $light-gray;
+      border-radius: 15px;
+      overflow: hidden;
+
+      .progress-bar {
+
+        &.success {
+          background-color: $contrast-green;
+        }
+
+        &.fail {
+          background-color: $danger-color;
+        }
+      }
+    }
+  }
+
+  .istkr-accordion {
+    margin-top: 25px;
+
+    .accordion-item {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: $box-shadow;
+      justify-content: space-between;
+      padding: 5px;
+      margin-bottom: 15px;
+
+      .accordion-header {
+        
+        .accordion-button {
+          border: 0;
+          background: transparent;
+          box-shadow: none;
+
+          &:not(.collapsed) {
+            color: $black;
+          }
+        }
+  
+        .header-data {
+          display: flex;
+          width: calc(100% - 50px);
+          align-items: center;
+
+          .status-badge{
+            font-size: 34px;
+            margin-right: 15px;
+
+            &.unknown {
+              color: $light-gray;
+            }
+
+            &.success {
+              color: $contrast-green;
+            }
+
+            &.fail {
+              color: $danger-color;
+            }
+          }
+        }
+      }
+
+      .accordion-body {
+        margin-left: 45px;
+      }
+    }
+  }
+}

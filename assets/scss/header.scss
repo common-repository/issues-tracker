@@ -1,0 +1,69 @@
+@import "./constants.scss";
+
+.bg-info {
+    background-color: $main-theme-color !important;
+}
+
+.navbar {
+    padding-bottom: 0;
+    padding-top: 0;
+    min-height: inherit;
+    
+    .navbar-nav {
+        margin-top: 5px;
+        
+        .nav-link {
+            font-size: 14px !important;
+            text-transform: none !important;
+            background-color: transparent !important;
+            box-shadow: none !important;
+            transition: none !important;
+        }
+
+        .nav-item.active {
+            border-bottom: 3px solid #fff;
+            position: relative;
+            font-weight: 500;
+        }
+
+        .nav-item {
+            min-width: 100px;
+            text-align: center;
+            margin-bottom: 0;
+            border-bottom: 3px solid transparent; /* Invisible border to avoid height change */
+            
+            &:hover {
+                border-bottom-color: #fff;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .istkr-pro-features {
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 12px;
+        border: 1px solid #f1f1f1;
+        border-radius: 5px;
+        padding: 0 10px;
+        text-decoration: none;
+        justify-content: center;
+        color: #1d2327 !important;
+        background: #fff;
+        opacity: 0.9;
+        margin: 0 auto;
+        max-width: 200px;
+        &:hover {
+            color: #fff;
+            opacity: 1;
+            transition: all 0.5s;
+        }
+
+        img {
+            width: 30px;
+            filter: brightness(1.1) saturate(1.1);
+            margin-left: 10px;
+        }
+    }
+}

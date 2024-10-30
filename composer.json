@@ -1,0 +1,6 @@
+{
+    "require": {
+        "freemius/wordpress-sdk": "^2.4",
+        "wp-cli/wp-config-transformer": "^1.3"
+    }
+}

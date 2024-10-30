@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: issues-tracker\n"
+"POT-Creation-Date: 2022-01-05 15:13+0200\n"
+"PO-Revision-Date: 2022-01-05 15:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: controllers/404Controller.php:153 controllers/AdvisorController.php:57
+msgid "Email was not passed"
+msgstr "Email не был передан"
+
+#: controllers/404Controller.php:209 controllers/LogController.php:117
+#: controllers/LogController.php:118 controllers/LogController.php:119
+#: controllers/LogController.php:120 controllers/LogController.php:121
+#: controllers/LogController.php:122 models/LogModel.php:38
+#: models/LogModel.php:44 models/LogModel.php:50 models/LogModel.php:73
+#: models/LogModel.php:78
+msgid "N/A"
+msgstr "Н/Д"
+
+#: controllers/MenuController.php:16 controllers/MenuController.php:18
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: controllers/MenuController.php:16
+msgid "Issues tracker"
+msgstr "Issues tracker"
+
+#: controllers/MenuController.php:18
+msgid "Issues tracker dashboard"
+msgstr "Панель управления Issues tracker"
+
+#: controllers/MenuController.php:20
+msgid "Debug log viewer"
+msgstr "Просмотрщик отладочных журналов"
+
+#: controllers/MenuController.php:20
+msgid "Log viewer"
+msgstr "Отладочные журналы"
+
+#: controllers/MenuController.php:22
+msgid "Security advisor"
+msgstr "Советчик по безопасности"
+
+#: controllers/MenuController.php:22
+msgid "Advisor"
+msgstr "Советчик"
+
+#: controllers/MenuController.php:24
+msgid "404 logger"
+msgstr "журнал 404"
+
+#: controllers/MenuController.php:24
+msgid "404"
+msgstr "404"
+
+#: models/AdvisorModel.php:16 models/AdvisorModel.php:37
+#: models/AdvisorModel.php:54 models/AdvisorModel.php:65
+#: models/AdvisorModel.php:89 models/AdvisorModel.php:97
+#: models/AdvisorModel.php:119 models/AdvisorModel.php:138
+msgid "Failed"
+msgstr "Не пройдено"
+
+#: models/AdvisorModel.php:16 models/AdvisorModel.php:37
+#: models/AdvisorModel.php:54 models/AdvisorModel.php:65
+#: models/AdvisorModel.php:89 models/AdvisorModel.php:97
+#: models/AdvisorModel.php:119 models/AdvisorModel.php:138
+msgid "Passed"
+msgstr "Пройдено"
+
+#: models/AdvisorModel.php:109
+msgid "Can't get the source code of the homepage. Check if cURL is enabled"
+msgstr ""
+"Не удается получить исходный код домашней страницы. Проверьте включен ли cURL"
+
+#: models/AdvisorModel.php:126
+msgid "Checking failed. Exception description:"
+msgstr "Проверка не удалась. Описание ошибки"
+
+#: models/AdvisorModel.php:162
+msgid "Checks if database password used in wp-config.php is widely used"
+msgstr ""
+"Проверяет использован ли популярный пароль для подключения к базе данных в "
+"config.php"
+
+#: models/AdvisorModel.php:164
+msgid ""
+"Change database password to most complicated to avoid risks of unauthorized "
+"access to the database"
+msgstr ""
+
+#: models/AdvisorModel.php:165
+msgid "Nothing to do. The database password is not widely used. Good job!"
+msgstr ""
+
+#: models/AdvisorModel.php:169
+msgid "Checks if used default database prefix"
+msgstr ""
+
+#: models/AdvisorModel.php:171
+msgid "Change the database prefix from _wp to more complicated"
+msgstr ""
+
+#: models/AdvisorModel.php:172
+msgid "Nothing to do. Database prefix is not _wp (default). Good job!"
+msgstr ""
+
+#: models/AdvisorModel.php:176
+msgid "Checks if database username used in wp-config.php is widely used"
+msgstr ""
+
+#: models/AdvisorModel.php:178
+msgid ""
+"Change database username to most complicated to avoid risks of unauthorized "
+"access to the database"
+msgstr ""
+
+#: models/AdvisorModel.php:179
+msgid "Nothing to do. Database username is not widely used. Good job!"
+msgstr ""
+
+#: models/AdvisorModel.php:183
+msgid "Checks if the PHP version is up-to-date"
+msgstr ""
+
+#: models/AdvisorModel.php:185
+msgid "Please, update PHP to the latest stable version"
+msgstr ""
+
+#: models/AdvisorModel.php:186
+msgid "Nothing to do. You're using"
+msgstr ""
+
+#: models/AdvisorModel.php:186
+msgid "but outdated PHP version, for now, is 7.2. Good job!"
+msgstr ""
+
+#: models/AdvisorModel.php:190
+msgid "Checks state of WP_DEBUG_DISPLAY constant"
+msgstr ""
+
+#: models/AdvisorModel.php:192
+msgid ""
+"Visitors of your site will see debug information on their screens. This is a "
+"huge vulnerability, so please, set WP_DEBUG_DISPLAY to \"false\" in the wp-"
+"config.php file"
+msgstr ""
+
+#: models/AdvisorModel.php:193
+msgid ""
+"Nothing to do. Debug information will not be shown to your visitors. Good "
+"job!"
+msgstr ""
+
+#: models/AdvisorModel.php:197
+msgid "Checks if SSL (https) encryption is enabled"
+msgstr ""
+
+#: models/AdvisorModel.php:199
+msgid ""
+"Data between your web server and users browsers are not encrypted. Use SSL!"
+msgstr ""
+
+#: models/AdvisorModel.php:200
+msgid ""
+"Nothing to do. Data between your web server and users browsers are "
+"encrypted. Good job!"
+msgstr ""
+
+#: models/AdvisorModel.php:204
+msgid "Checks if WordPress version presented in HTML code"
+msgstr ""
+
+#: models/AdvisorModel.php:206
+msgid ""
+"Anybody can see which version of Wordpress you're using. To resolve this, "
+"add <b>remove_action( 'wp_head', 'wp_generator' );</b> into functions.php of "
+"your theme"
+msgstr ""
+
+#: models/AdvisorModel.php:207
+msgid ""
+"Nothing to do. WordPress version was not detected in the HTML code of your "
+"site. Good job!"
+msgstr ""
+
+#: models/AdvisorModel.php:211
+msgid "Checks if widely used usernames for registered users"
+msgstr ""
+
+#: models/AdvisorModel.php:213
+msgid ""
+"Please, avoid using this usernames like \"admin\", \"root\", \"administrator"
+"\" due to the high risk to be hacked"
+msgstr ""
+"Пожалуйста, избегайте использования имен пользователя вроде “admin”, “root”, "
+"“administrator” из-за высокого риска взлома"
+
+#: models/AdvisorModel.php:214
+msgid ""
+"Nothing to do. Check is not detected users with widely used usernames. Good "
+"job!"
+msgstr ""
+
+#: models/LogModel.php:89
+msgid "Mb"
+msgstr "Мб"
+
+#: views/header.php:35
+msgid "You're Pro"
+msgstr "Вы Pro"
+
+#: views/header.php:40
+msgid "Get pro features"
+msgstr "Получить PRO возможности"
+
+#: views/pages/404-redirects.php:52
+msgid ""
+"Upgrade to Pro plan to have the ability to get notifications about 404 "
+"errors."
+msgstr ""
+"Повысте свой план чтобы иметь возможность получать уведомления о 404 ошибках"
+
+#: views/pages/advisor.php:205
+msgid ""
+"Upgrade to Pro plan to have the ability to get notifications when Advisor "
+"detects changes in website state"
+msgstr ""
+"Повысте свой план чтобы иметь возможность получать уведомления когда "
+"Советчик обнаружит изменения состояния веб-сайта"

@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'c7b332651ea4c626078ac360535d16f8ad94cbcc',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'c7b332651ea4c626078ac360535d16f8ad94cbcc',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'freemius/wordpress-sdk' => array(
+            'pretty_version' => '2.8.1',
+            'version' => '2.8.1.0',
+            'reference' => 'cc31279d088909135b6b2d8b4f2696312f5731fc',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../freemius/wordpress-sdk',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wp-cli/wp-config-transformer' => array(
+            'pretty_version' => 'v1.4.0',
+            'version' => '1.4.0.0',
+            'reference' => '9b470f6f1a75707b22e9cfb85bb74120256243b4',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wp-cli/wp-config-transformer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

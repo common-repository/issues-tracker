@@ -1,0 +1,73 @@
+@import "./constants.scss";
+@import "./base/fonts.scss";
+
+@import "./header.scss";
+@import "./pages/advisor.scss";
+@import "./pages/dashboard.scss";
+@import "./pages/log-viewer.scss";
+@import "./pages/404-redirects.scss";
+
+@import "./pages/server-info.scss";
+
+@import "./components/scroll-to-top.scss";
+@import "./components/review.scss";
+@import "./components/sidebar.scss";
+@import "./components/table-pagination.scss";
+
+
+#wpbody-content{
+    background-color: $body-color;
+}
+
+.istkr-dashboard,
+.istkr-log-viewer,
+.istkr-404-redirects,
+.istkr-advisor {
+        max-width: 1800px;
+        padding-left: 30px;
+        padding-right: 30px;
+    p {
+        font-size: 15px;
+    }
+    .datetime {
+        min-width: 180px;
+    }
+}
+
+#wpcontent,
+#wpfooter {
+    margin-left: 135px;
+    padding-left: 25px;
+}
+
+.istkr-dashboard,
+.istkr-log-viewer,
+.istkr-404-redirects,
+.istkr-advisor {
+    .dataTables_wrapper {
+        .dataTables_length {
+            margin: 5px 0 10px 0;
+            select {
+                padding: 0 24px 0 8px;
+            }
+        }
+
+        .dataTables_filter {
+            margin: 5px 0 10px 0;
+            input {
+                height: 30px;
+            }
+        }
+
+        .dataTables_info {
+            margin-top: 4px;
+        }
+    }
+}
+
+
+@media print, not screen {
+    .no-print {
+        display: none;
+    }
+}
